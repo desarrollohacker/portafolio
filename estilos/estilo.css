@@ -1,0 +1,217 @@
+body{
+    font-family: 'Courier New', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    
+
+}
+header, .nav{
+    font-size: 35px;
+    background-color: #000000;
+    text-align: center;
+    margin: 0%;
+}
+.titulo{
+    color: #ffffff;
+    width: 50%;
+}
+
+.titulo-h{
+    font-family: bold;
+    font-size: 30px;
+}
+.nav ul li{
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.nav ul li:hover, a:hover{
+    background-color: #224daa;
+    color:#e71414;
+
+}
+ /*seccion inicio*/
+
+.inicio-contenedor{
+    background-color: #6d7177;
+    padding: 0 0 300 0;
+    max-width: 100%;
+    background-size: cover;
+
+
+ }
+
+ .presentacion{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+ }
+.container-h{
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 100px;
+    margin: 35px;
+    padding: 5px;
+    background-color: #558e96;
+    font-size: 20px;
+    
+}
+.llorona{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#historia{
+    background-color: #a3a7ad;
+    padding-bottom: 120px;
+    text-align: center;
+
+}
+.charro{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.autobus{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.btn{
+    margin: 20px;
+    font-size: 100%;
+}
+.titulo2{
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.container-i{
+    text-align: center;
+    border: 2px solid #ca3c3c;
+    border-radius: 100px;
+    margin: 35px;
+    padding: 5px;
+    background-color: #4e6e80;
+    font-size: 20px;
+    
+}
+#inicio2{
+    background-color: #a3a7ad;
+}
+.bienvenido{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+/*seccion contacto*/
+
+.contacto{
+
+    background: #38609b;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    text-align: start;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+}
+.titulo-c{
+    color: #000000;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+.form{
+    max-width: 500px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+input{
+    margin: 5px;
+    height: 30px;
+    background-color: #002d38;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 100px;
+}
+textarea{
+    margin: 2px;
+    background-color: #152632;
+    color: #ffffff;
+    border-radius: 10px;
+
+
+}
+.btn-enviar{
+    width: 100px;
+    height: 50px;
+    background-color: #152632;
+    color: #f8d6bc;
+    border: 5px solid #000000;
+    font-size: 16px;
+
+
+
+
+}
+
+.button:hover{
+    background-color: #f8d6bc;
+    color:#152632;
+    font-size: large;
+    font-weight: bolder;
+transition: .5s;
+}
+.img-f{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo{
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    border-radius: 5px solid ;
+    
+}
+.img-f{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    float: right, left;
+
+    
+ }
+ .LLAMARA{
+    color: #e71414;
+    
+ }
+
+ 
